@@ -36,11 +36,11 @@
 
 
 </head>
-<body class="manrope-font">
-    <header>
+<body class="manrope-font bg-base-200">
+    <header class="bg-white">
         <!-- Navigation Bar -->
-        <nav class="container mx-auto mt-5">
-            <div class="navbar bg-base-100 justify-between">
+        <nav class="container mx-auto py-5">
+            <div class="navbar justify-between">
                 <div class="navbar-start">
                     <i class="fa-solid bg-house-primary text-xl rounded-full text-black px-2 py-1 fa-arrow-right -rotate-45"></i>
                   <a class="btn btn-ghost text-4xl font-extrabold">Rinterio</a>
@@ -116,10 +116,12 @@
             <div class="container mx-auto">
                 <div class="hero">
                     <div class="hero-content lg:max-w-none flex-col lg:flex-row justify-between items-center">
-                      <div class=" relative px-4 lg:px-16 flex-1">
-                        <img class="absolute left-4 -top-16" src="assets/Vector.png" alt="">
-                        <button class="btn text-xl rounded-full mb-5 px-8 py-1 bg-white">
-                            <i class="fa-solid fa-arrow-right"></i>About Us</button>
+                      <div class=" relative px-4 lg:pr-16 flex-1">
+                        <img class="absolute max-sm:hidden left-4 -top-16" src="assets/Vector.png" alt="">
+                        <div class="flex justify-center lg:justify-start mb-5">
+                            <button class="btn text-xl rounded-full mb-5 px-8 py-1 bg-white">
+                                <i class="fa-solid fa-arrow-right"></i>About Us</button>
+                        </div>
                         <h1 class="text-6xl mb-5 font-black">We design thoughtful, liveable spaces</h1>
                         <p class="py-6 text-xl">
                             The barn house captivates with its blend of rustic charm and 
@@ -153,6 +155,42 @@
                   </div>
             </div>
         </section>
+
+        <!-- Stats  -->
+        <section class="max-sm:p-4">
+            <div class="container p-10 pb-8 mx-auto bg-white rounded-xl flex flex-col lg:flex-row justify-around">
+                <div>
+                    <div class="flex justify-center">
+                        <i class="fa-regular fa-message text-6xl text-gray-500 py-8 mt-4 text-center"></i>
+                    </div>
+                    <h3 class="text-6xl font-bold text-center">230+</h3>
+                    <p class="text-xl mt-4 text-center">Happy Clients Review</p>
+                </div>
+                <div class=" bg-white">
+                    <div class="flex justify-center">
+                        <i class="fa-solid fa-building-columns text-6xl text-gray-500 py-8 mt-4 text-center"></i>
+                    </div>
+                    <h3 class="text-6xl font-bold text-center">50+</h3>
+                    <p class="text-xl mt-4 text-center">Work Departments</p>
+                </div>
+                <div class=" bg-white">
+                    <div class="flex justify-center">
+                        <i class="fa-solid fa-users text-6xl text-gray-500 py-8 mt-4 text-center"></i>
+                    </div>
+                    <h3 class="text-6xl font-bold text-center">30K+</h3>
+                    <p class="text-xl mt-4 text-center">Our Happy Clients</p>
+                </div>
+                <div class=" bg-white">
+                    <div class="flex justify-center">
+                        <i class="fa-solid fa-user text-6xl text-gray-500 py-8 mt-4 text-center"></i>
+                    </div>
+                    <h3 class="text-6xl font-bold text-center">307+</h3>
+                    <p class="text-xl mt-4 text-center">Staff Members</p>
+                </div>
+            </div>
+
+        </section>
+
 
     </main>
 
